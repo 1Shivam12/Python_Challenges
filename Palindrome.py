@@ -21,10 +21,7 @@ def is_palindrome(string):
         if i.isalpha():
             text += i
     
-    if text ==  text[::-1]:
-        return True
-    else:
-        return False
+    return text == text[::-1]
     
     
 if __name__ == "__main__":
